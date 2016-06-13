@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+.divContainer{
+	position: absolute;
+    width: 600px;
+    left: 37%;
+    top:25%;
+}
+
+.divLoginPainel{
+	margin: 10px 0;
+	padding: 10px;
+	width: 300px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 4px #FFFFFF ;
+	background-color:#CCC
+}
+
+.ContainerTop{
+	position: absolute;
+    width: 500px;
+	height: 100px;
+    left: 13%;
+	margin-top: 30px;
+}
+
+.PainelTop{
+	font-family:Verdana, Geneva, sans-serif;
+	width: 1000px;
+	border-radius: 50px;
+	color: white;
+	background-image: url("../img/fundo_top.png");
+}
+
+.PainelTop a{
+	margin-top: -5px;
+	margin-right: 40px;
+	float:right;
+}
+
+.PainelTop h3,h4 {
+	margin-top: 4px;
+	margin-left: 40px;
+}
+
+.PainelMenu{
+	position:relative;
+	left: 15%;
+	margin-top: 152px;
+	background-color: #096;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+
+	width: 230px;
+	float: left;
+	clear: left;
+	border-radius: 4px;
+}
+
+.PainelMenu h2 {
+	font-family:Verdana, Geneva, sans-serif;
+	margin: 4px;
+
+}
+
+.PainelMenu li {
+	background-color: #CCC;
+	margin-bottom: 2px;
+	padding: 8px 10px;
+	text-align:center;
+	border-radius: 3px;
+}
+
+.PainelMenu a {
+	font-family:Verdana, Geneva, sans-serif;
+	color: #333333;
+	text-decoration: none;
+}
+
+/*Inicia invisivel*/
+.PainelMenu li ul {
+	display: none;
+	list-style: none;
+}
+
+/*before = tira o mouse, hover = coloca o mouse em cima*/
+.PainelMenu li:hover ul {
+	display: block;
+}
+
+.PainelMenu ul li ul:hover li{
+	background-image: linear-gradient(to right,#096,#099);/* to right = definindo o eixo do gradiente */
+}
+
+.PainelMenu ul li ul:before li{
+	background-color:#096;
+}
+
+.PainelMenu ul ul li {
+	text-align:center;
+	background-color: #096;
+	border-radius: 4px;/*Arredonda as bordas*/
+	box-shadow: 1px 1px 4px #999;/*Inclui sombra no objeto*/
+}
+.PainelMenu li li a:before {
+	/*content: '- ';*/
+	padding-right: 3px;
+}
+
+.ContainerPrincipal{
+	position:relative;
+	background: linear-gradient(#099,#096);
+	left: 16%;
+	margin-top: 150px;
+}
+
+.PainelPrincipal {
+	width: 700px;
+	height: 400px;
+	float: left;
+	border-radius: 10px;
+	box-shadow: 1px 1px 4px #FFFFFF ;
+}
+
+.PainelPrincipal p,h2{
+	margin-left: 20px;
+	margin-right: 10px;
+	/*text-align:center;*/
+	word-spacing:2px;
+	
+}
+
+h3{
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+.PainelPrincipal img[src*="tempo.png"]{
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-right: 15px;
+	float: right;
+}
+
+.PainelPrincipal img[src*="../../CURSO_PHP/BASICO/imagens/Notes.png"]{
+	border-radius: 0px;
+}
+
+.social li a {
+	/* tamanho da imagem */
+	height: 32px;
+	width: 32px;
+	/* image replacement */
+	display: block;
+	text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"] {
+	background-image: url(../img/facebook.png);
+}
+
+.social a[href*="instagram.com"] {
+	background-image: url(../img/instagram.png);
+}
+
+.social a[href*="plus.google.com"] {
+	background-image: url(../img/gmail.png);
+}
+
+.social {
+	position: absolute;
+	top: 12px;
+	right: 0;
+}
+
+.social li {
+	float: left;
+	margin-left: 25px;
+	margin-right: 10px;
+}
+
+.ContainerRodape{
+	position:relative;
+	background-image:url(../../CURSO_PHP/BASICO/imagens/fundo-rodape.jpg);
+	margin-top: 40px;
+	float: left;
+}
+
+.PainelRodape {
+	text-align:center;
+	width: 100%;
+	height: 53px;
+}
+
+img{
+	border-radius: 10px;
+
+}
+
+body{
+	background-image:url(../img/fundo-main.jpg);
+}

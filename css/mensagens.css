@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+.ErroContainer{
+	position: absolute;
+    width: 400px;
+    left: 37%;
+    top:65%;
+}
+.msgErro{
+	margin: 10px 0;
+	padding: 1px;
+	width: 320px;
+	border-radius: 10px;
+	background-color:#F00;
+}
+
+.ErroContainer2{
+	position: absolute;
+    width: 400px;
+   left: 2%;
+    top:40%;
+}
+.msgErro2{
+	margin: 10px 0;
+	padding: 1px;
+	width: 320px;
+	border-radius: 10px;
+	background-color:#F00;
+}
+
+.ConfirmaContainer{
+	position: absolute;
+    width: 400px;
+	left: 2%;
+    top:40%;
+}
+.msgConfirma{
+	margin: 10px 0;
+	padding: 1px;
+	width: 320px;
+	border-radius: 10px;
+	background-color:#0F0;
+}
+
+.AtencaoContainer{
+	position: absolute;
+    width: 400px;
+	left: 2%;
+    top:40%;
+}
+.msgAtencao{
+	margin: 10px 0;
+	padding: 1px;
+	width: 320px;
+	border-radius: 10px;
+	background-color:#FF0;
+}
+
+.ErroContainerMed{
+	position: absolute;
+    width: 400px;
+   left: 2%;
+    top:82%;
+}
+.msgErroMed{
+	margin: 10px 0;
+	padding: 1px;
+	width: 320px;
+	border-radius: 10px;
+	background-color:#F00;
+}
+
+.ConfirmaContainerMed{
+	position: absolute;
+    width: 400px;
+	left: 2%;
+    top:82%;
+}
+.msgConfirmaMed{
+	margin: 10px 0;
+	padding: 1px;
+	width: 320px;
+	border-radius: 10px;
+	background-color:#0F0;
+}
+
+.AtencaoContainerMed{
+	position: absolute;
+    width: 400px;
+	left: 2%;
+    top:82%;
+}
+.msgAtencaoMed{
+	margin: 10px 0;
+	padding: 1px;
+	width: 320px;
+	border-radius: 10px;
+	background-color:#FF0;
+}
+
+.ErroContainerCon{
+	position: absolute;
+    width: 400px;
+   left: 2%;
+    top:45%;
+}
+.msgErroCon{
+	margin: 10px 0;
+	padding: 1px;
+	width: 320px;
+	border-radius: 10px;
+	background-color:#F00;
+}
+
+.ConfirmaContainerCon{
+	position: absolute;
+    width: 400px;
+	left: 2%;
+    top:45%;
+}
+.msgConfirmaCon{
+	margin: 10px 0;
+	padding: 1px;
+	width: 320px;
+	border-radius: 10px;
+	background-color:#0F0;
+}
+
+.AtencaoContainerCon{
+	position: absolute;
+    width: 400px;
+	left: 2%;
+    top:45%;
+}
+.msgAtencaoCon{
+	margin: 10px 0;
+	padding: 1px;
+	width: 320px;
+	border-radius: 10px;
+	background-color:#FF0;
+}
+
+.ErroContainerObs{
+	position: absolute;
+    width: 400px;
+   left: 2%;
+    top:70%;
+}
+.msgErroObs{
+	margin: 10px 0;
+	padding: 1px;
+	width: 320px;
+	border-radius: 10px;
+	background-color:#F00;
+}
+
+.ConfirmaContainerObs{
+	position: absolute;
+    width: 400px;
+	left: 2%;
+    top:70%;
+}
+.msgConfirmaObs{
+	margin: 10px 0;
+	padding: 1px;
+	width: 320px;
+	border-radius: 10px;
+	background-color:#0F0;
+}
+
+.AtencaoContainerObs{
+	position: absolute;
+    width: 400px;
+	left: 2%;
+    top:70%;
+}
+.msgAtencaoObs{
+	margin: 10px 0;
+	padding: 1px;
+	width: 320px;
+	border-radius: 10px;
+	background-color:#FF0;
+}
